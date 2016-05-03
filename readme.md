@@ -5,7 +5,7 @@ NodeJS package for listing windows (window id, window title, process id, process
 
 ## Getting started
 
-    npm install --save node-window-listing
+    npm install --save Vegard-/node-window-listing
 
 ## Usage
 
