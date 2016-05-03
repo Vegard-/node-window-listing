@@ -5,6 +5,7 @@
   "main": "window_listing.js",
   "gypfile": true,
   "author": "Vegard Deila",
+  "os" : [ "darwin" ],
   "scripts": {
     "test": "node ./test/test.js"
   },
