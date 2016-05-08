@@ -31,32 +31,11 @@ Output:
         "pname": "Atom",
         "windowId": 12910
       },
-      {
-        "pid": 83708,
-        "pname": "Atom",
-        "windowId": 12899,
-        "windowTitle": "readme.md — /Users/vader/repositories/node-window-listing"
-      },
-      {
-        "pid": 82964,
-        "pname": "SourceTree",
-        "windowId": 12896,
-        "windowTitle": "node-window-listing (Git)"
-      },
-      {
-        "pid": 82964,
-        "pname": "SourceTree",
-        "windowId": 12873,
-        "windowTitle": "SourceTree"
-      },
-      {
-        "pid": 82964,
-        "pname": "SourceTree",
-        "windowId": 12872
-      },
-      {
-        "pid": 81633,
-        "pname": "Spotify",
-        "windowId": 12722
-      }
+      ...
     ]
+
+## Specifying UID when retrieving windows
+
+  var myExampleUID = 501;
+  let windowListing = require('window-listing');
+  console.log(windowListing.getAll(myExampleUID));

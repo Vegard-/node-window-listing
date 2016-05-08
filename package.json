@@ -1,13 +1,20 @@
 {
   "name": "window-listing",
-  "description": "NodeJS package for listing windows (window id, window title, process id, process name) on OS X.",
-  "version": "0.1.0",
+  "description": "NodeJS package for listing windows (window id, window title, process id) on OS X.",
+  "version": "0.1.1",
   "main": "window_listing.js",
-  "gypfile": true,
   "author": "Vegard Deila",
-  "os" : [ "darwin" ],
+  "os": [
+    "darwin"
+  ],
   "scripts": {
-    "test": "node ./test/test.js"
+    "test": "mocha ./test/test.js"
   },
-  "dependencies": {}
+  "dependencies": {
+    "bash-interpreter": "git://github.com/vegard-/node-bash-interpreter.git"
+  },
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "mocha": "^2.4.5"
+  }
 }
