@@ -10,7 +10,9 @@ NodeJS package for listing windows (window id, window title, process id, process
 ## Usage
 
     let windowListing = require('window-listing');
-    console.log(windowListing.getAll());
+    windowListing.getAll().then((windows)=>{
+      console.log(windows);
+    });
 
 Output:
 
@@ -38,4 +40,6 @@ Output:
 
   var myExampleUID = 501;
   let windowListing = require('window-listing');
-  console.log(windowListing.getAll(myExampleUID));
+  windowListing.getAll(myExampleUID).then((windows)=>{
+    console.log(windows);
+  });

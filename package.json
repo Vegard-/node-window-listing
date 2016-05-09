@@ -1,7 +1,7 @@
 {
   "name": "window-listing",
   "description": "NodeJS package for listing windows (window id, window title, process id) on OS X.",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "main": "window_listing.js",
   "author": "Vegard Deila",
   "os": [

@@ -19,7 +19,7 @@ module.exports = (function(){
         headers: {
           "PID": "pid",
           "WindowID": "windowId",
-          "Title": "title"
+          "Title": "windowTitle"
         }
       });
     });
