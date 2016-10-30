@@ -38,8 +38,8 @@ Output:
 
 ## Specifying UID when retrieving windows
 
-  var myExampleUID = 501;
-  let windowListing = require('window-listing');
-  windowListing.getAll(myExampleUID).then((windows)=>{
-    console.log(windows);
-  });
+    var myExampleUID = 501;
+    let windowListing = require('window-listing');
+    windowListing.getAll(myExampleUID).then((windows)=>{
+      console.log(windows);
+    });
